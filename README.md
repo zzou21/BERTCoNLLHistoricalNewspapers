@@ -28,7 +28,6 @@ The project then compares the performance of the fine-tuned BERT against the per
 - `LLMAPICleaning.py`: contains code to call a generative AI's API to clean OCR-ed newspaper texts obtained from `LibraryOfCongressDocumentExtraction.ipynb`.
 - `newspaperCleanedContent.json`: contains 529 pages of cleaned text content of historical US newspapers. This is the corpus that the project is using.
 - `stanfordTaggingMerged(UseInEvaluation).json`: contains the Named Entities that Stanford NER labeled. This data is used as a reference during evaluation to compare how my model's Named Entities labels perform.
-- `txtToJSON.py`: contains Python code to turn newspaper pages stored as TXTs into one JSON for easier access.
 - `LAoilNewspaperTXTOutputCleaned`: contains the folder of newspaper content as cleaned TXT files. They are the same information as the `newspaperCleanedContent.json`.
 
 <b><i>DCCMistral</i></b> This directory contains the code needed to run the Mistral open-source generative model to clean textual OCR data locally.
@@ -49,7 +48,8 @@ The project then compares the performance of the fine-tuned BERT against the per
 - `FineTuneBERT.ipynb`: contains the code used to fine-tune BERT using the CoNLL 2003 dataset and the code used to perform five different training iterations using different hyperparameters.
 - `runFineTunedBERT.ipynb`: contains the code used to run fine-tuned BERT and calculate average inference time.
 
-<b><i>src</i></b> This directory contains all Python files used in this project. There is no Python files here since all Python files are part of other directories.
+<b><i>src</i></b> This directory contains all Python files used in this project.
+- `txtToJSON.py`: contains Python code to turn newspaper pages stored as TXTs into one JSON for easier access.
 
 <b><i>video</i></b> This directory contains links to my two videos.
 - `videoLinks.md`: contains a Markdown file with links to the two videos that I made.
