@@ -1,0 +1,15 @@
+Software Requirements
+
+To effectively run this program, you need Python 3.9 or above, pip or conda (to isntall libraries), and about 4 GB of storage space on your device.
+
+You need to install the following libraries:
+- pytorch
+- scikit-learn
+- transformers
+- datasets
+- matplotlib
+- requests
+
+Other libraries used in this program (such as "json") should be built-in libraries that come with Python.
+
+To allow faster model training and inference, I recommend using GPU. You can do so through using your machine's built-in GPU, Google Colab's, your institution's computing cluster (if available), or other means.
