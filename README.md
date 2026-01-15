@@ -1,5 +1,4 @@
-### CS 372 Final Project:
-### Title: Using BERT to Identify Named Entities in Historical Newspapers
+### Using BERT to Identify Named Entities in Historical Newspapers
 
 #### Description and What-it-Does
 This project uses the BERT encoder-only Transformer language model architecture to understand whether there is a congruency between the language used in newspaper writing between 1890 and 1930 versus the general public writing of today. Language usage, in the context of this project, is defined as whether Named Entities have been used similarly.
